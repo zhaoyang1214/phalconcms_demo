@@ -1,0 +1,214 @@
+.official-travel .banner {
+  position: relative;
+  min-width: 1060px;
+}
+.official-travel .banner .banner-img {
+  width: 100%;
+}
+.official-travel .banner .wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1060px;
+  height: 420px;
+  margin: -204px auto 0 -530px;
+}
+.official-travel .banner .wrap h1 {
+  margin-bottom: 35px;
+  font-size:60px;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+}
+.official-travel .banner sub {
+  font-size:41px;
+  color:rgba(255,255,255,1);
+}
+.official-travel .banner .qr-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.official-travel .banner .qr-wrap img {
+  display: block;
+  width: 198px;
+  height: 198px;
+}
+.official-travel .banner .qr-wrap p {
+  width: 198px;
+  height: 37px;
+  background: #4287FF;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 37px;
+}
+.official-travel .info1 {
+  position: relative;
+  width: 1060px;
+  padding: 100px 0 84px;
+  margin: 0 auto;
+}
+.official-travel .main-tit {
+  margin-bottom: 20px;
+  font-size:50px;
+  color:rgba(44,45,46,1);
+}
+.official-travel .sub-tit {
+  font-size:22px;
+  color:rgba(44,45,46,1);
+}
+.official-travel .info1 p {
+  width: 447px;
+  margin-top: 40px;
+  font-size:16px;
+  color:rgba(66,69,75,1);
+  line-height:30px;
+}
+.official-travel .info1 img {
+  position: absolute;
+  top: 236px;
+  left: 447px;
+  width: 656px;
+  height: 398px;
+}
+.official-travel .info2 {
+  padding: 114px 0 20px;
+  background: #F8F8F9 url("../images/officialTravel/info2-bg.png") center center no-repeat;
+}
+.official-travel .info3 {
+  padding: 114px 0 20px;
+  background: #F8F8F9 url("../images/officialTravel/info3-bg.png") center center no-repeat;
+}
+.official-travel .info2 .wrap,
+.official-travel .info3 .wrap {
+  position: relative;
+  width: 1060px;
+  margin: 0 auto;
+}
+.official-travel .info2 .main-tit,
+.official-travel .info2 .sub-tit {
+  display: block;
+  text-align: right;
+}
+.official-travel .info3 .sub-tit {
+  display: block;
+}
+.official-travel .info2 ul,
+.official-travel .info3 ul {
+  width: 526px;
+  margin-top: 98px;
+}
+.official-travel .info2 li,
+.official-travel .info3 li {
+  width: 210px;
+  height: 173px;
+  padding: 18px;
+  margin: 0 0 53px 53px;
+  border:1px solid rgba(217, 217, 217, 0.61);
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;
+}
+.official-travel .info3 li {
+  margin: 0 53px 53px 0;
+}
+.official-travel .info2 li h3,
+.official-travel .info3 li h3 {
+  margin: 5px 0;
+  font-size:18px;
+  color:rgba(44,45,46,1);
+}
+.official-travel .info2 li p,
+.official-travel .info3 li p {
+  font-size:14px;
+  font-weight:400;
+  color:rgba(94,95,96,1);
+}
+.official-travel .info2 .data {
+  position: absolute;
+  left: -122px;
+  top: 133px;
+}
+.official-travel .info3 .data {
+  position: absolute;
+  right: -122px;
+  top: 90px;
+}
+.official-travel .info4 {
+  position: relative;
+  height: 799px;
+  background: url("../images/officialTravel/info4-bg.png") center 0 no-repeat;
+}
+.official-travel .info4 .bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 57%;
+  height: 689px;
+  margin-top: -345px;
+  background: #fff;
+}
+.official-travel .info4 .con {
+  position: relative;
+  z-index: 1;
+  width: 1060px;
+  height: 689px;
+  padding-top: 98px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.official-travel .info4 .item {
+  margin-bottom: 70px;
+}
+.official-travel .info4 .sub-tit {
+  margin-bottom: 34px;
+}
+.official-travel .info4 li {
+  width: 268px;
+  margin-right: 68px;
+}
+.official-travel .info4 li span {
+  margin-left: 5px;
+  vertical-align: 8px;
+}
+.official-travel .info4 li p {
+  margin-top: 18px;
+  font-size:14px;
+  color:rgba(94,95,96,1);
+  line-height:20px;
+}
+.official-travel .info4 .down {
+  width: 212px;
+  height: 57px;
+  background: #4287FF;
+  border-radius:5px;
+  font-size: 18px;
+  line-height: 57px;
+  text-align: center;
+}
+.official-travel .info4 .down span {
+  margin-left: 10px;
+  vertical-align: 8px;
+}
+.official-travel .info4 .down a {
+  color:#fff;
+}
+.official-travel .info5 {
+  padding: 93px 0;
+  background:rgba(248,248,249,1);
+}
+.official-travel .info5 ul {
+  width: 1060px;
+  margin: 0 auto;
+}
+.official-travel .info5 ul li {
+  width: 422px;
+}
+.official-travel .info5 li img {
+  margin: 40px 0;
+}
+.official-travel .info5 li p {
+  font-size:18px;
+  color:rgba(94,95,96,1);
+  line-height:36px;
+}

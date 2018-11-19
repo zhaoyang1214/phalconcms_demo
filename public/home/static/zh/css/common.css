@@ -1,0 +1,204 @@
+body >div {
+  padding-top: 94px;
+}
+.common-header {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 94px;
+  padding-top: 23px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.common-header .wrap {
+  width: 1060px;
+  height: 48px;
+  margin: 0 auto;
+}
+.common-header .logo a {
+  display: block;
+  width: 128px;
+  height: 48px;
+  background: url("../images/logo.png");
+}
+.common-header nav {
+  height: 48px;
+}
+.common-header .nav-list li {
+  float: left;
+  margin-right: 35px;
+  line-height: 48px;
+  font-size:18px;
+  font-weight:400;
+  color:rgba(44,45,46,1);
+}
+.common-header .nav-list a {
+  display: block;
+  height: 100%;
+  color: #2C2D2E;
+  font-size: 18px;
+}
+.common-header .nav-list li.current-page a {
+  color: #4287FF;
+}
+.common-header .qr-code {
+  position: relative;
+  width: 35px;
+  height: 34px;
+  margin-top: 8px;
+  background: url("../images/shouji.png");
+  cursor: pointer;
+}
+.common-header .qr-code:hover .qr-code-list {
+  display: block;
+}
+.common-header .qr-code-list {
+  position: absolute;
+  top: 55px;
+  right: -20px;
+  width: 480px;
+  padding: 20px 0;
+  border: 1px solid #ededed;
+  background: #fff;
+  border-radius: 4px;
+}
+.common-header .qr-code-list:after {
+  position: absolute;
+  top: -14px;
+  right: 26px;
+  content: ' ';
+  min-width: 22px;
+  height: 14px;
+  background: url("../images/sjx.png");
+}
+.common-header .qr-code-list li {
+  margin: 0 30px;
+}
+.common-header .qr-code-list li img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 10px;
+}
+.common-header .qr-code-list li p {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(44,45,46,1);
+}
+
+.common-footer {
+  width: 1060px;
+  margin: 0 auto;
+}
+.common-footer .top {
+  font-size:24px;
+  font-weight:500;
+  color:rgba(26,31,41,1);
+  line-height: 120px;
+}
+.common-footer .top .logo {
+  margin-top: 46px;
+  margin-right: 502px;
+}
+.common-footer .mid {
+  height: 248px;
+  border-top: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
+}
+.common-footer .left li {
+  width: 88px;
+  margin-right: 50px;
+  text-align: center;
+}
+.common-footer .left li img {
+  width: 88px;
+  height: 88px;
+}
+.common-footer .left >h3 {
+  font-size:16px;
+  color:rgba(26,31,41,1);
+  line-height:80px;
+}
+.common-footer .right {
+  padding-left: 206px;
+  width: 636px;
+  box-sizing: border-box;
+}
+.common-footer .right h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1A1F29;
+}
+.common-footer .right .ul-block {
+  margin-right: 114px;
+}
+.common-footer .right .ul-block li {
+  line-height: 32px;
+}
+.common-footer .right .ul-block a {
+  color: #676A74;
+  font-size: 14px;
+}
+.common-footer .right .other-link {
+  margin-top: 16px;
+  line-height: 48px;
+}
+.common-footer .right .other-link a {
+  color:#1A1F29;
+  font-size: 16px;
+}
+.common-footer .bot {
+  font-size:16px;
+  color:rgba(103,106,116,1);
+  text-align: center;
+  line-height: 88px;
+}
+.common-submit-success {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 530px;
+  height: 410px;
+  margin: auto;
+  background: #fff;
+  border-radius:11px;
+}
+.common-submit-success h2 {
+  font-size:30px;
+  color:rgba(44,45,46,1);
+  line-height:60px;
+  text-align: center;
+  border-bottom: 1px solid #EEEEEF;
+}
+.common-submit-success .close {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+  width: 17px;
+  height: 17px;
+  background: url("../images/hotLines/guanbi.png");
+  cursor: pointer;
+}
+.common-submit-success >img {
+  display: block;
+  width: 85px;
+  height: 85px;
+  margin: 93px auto 23px;
+}
+.common-submit-success p {
+  color: #1D1D1D;
+  text-align: center;
+}
+.common-submit-success .success {
+  margin-bottom: 19px;
+  font-size: 24px;
+}
+.common-submit-success .tip {
+  font-size:16px;
+  color:rgba(29,29,29,1);
+}

@@ -1,0 +1,491 @@
+.about .main-wrap{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.about .banner-img{
+    min-width: 1060px;
+    width: 100%;
+    display: block;
+}
+
+.about .menu{
+    height: 81px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 0;
+    line-height: 81px;
+    text-align: center;
+}
+
+.about .menu-item{
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    color: #000;
+}
+.about .menu-item:hover{
+    color: #fff;
+    background-color: #4287FF;
+}
+.about .active-menu{
+    color: #fff;
+    background-color: #4287FF;
+}
+
+.about .introduce{
+    background-color: #F8F8F9;
+}
+
+.about .introduce .introduce-desc{
+    display: inline-block;
+    width: 530px;
+    margin-right: 43px;
+}
+
+.about .introduce h2 {
+    font-size: 60px;
+    padding: 105px 0 26px;
+}
+
+.about .introduce h3 {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.about .introduce p {
+    color: #42454B;
+    font-size: 16px;
+    line-height:30px;
+}
+
+.about .introduce p:nth-of-type(2) {
+    margin: 15px 0 100px;
+}
+
+.about .service-platform{
+    background-color: #F8F8F9;
+    padding: 100px 0;
+}
+
+.about .service-platform h2{
+    font-size: 60px;
+}
+
+.about .service-platform .sub-title{
+    font-size: 22px;
+    margin: 27px 0 75px;
+}
+
+.about .platform-item{
+    display: inline-block;
+}
+
+.about .platform-item .item-title{
+    font-size: 30px;
+}
+
+.about .platform-item .item-title:before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 27px;
+    background-color: #D8D8D8;
+    margin: 30px 0 25px;
+}
+
+
+/* 历程轮播 */
+.about .course{
+    padding: 100px 0;
+}
+
+.about .course h2{
+    font-size: 60px;
+}
+
+.about .course-desc{
+    font-size: 22px;
+    color: #2C2D2E;
+    margin: 27px 0 105px;
+}
+
+.about .course-slider{
+    width: 942px;
+    margin: 0 auto
+}
+
+.about .bx-wrapper{
+    min-width: 85% !important;
+}
+.about .bx-prev {
+    left: -40px !important;
+    background: url(../images/aboutUs/control_l.png) no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
+.about .bx-next {
+    right: -40px !important;
+    background: url(../images/aboutUs/control_r.png) no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
+.about .bx-pager {
+    display: none !important;
+}
+
+.about .slider-item{
+    border-radius: 5px;
+    height: 115px;
+    width: 273px;
+    text-align: center;
+    background-image: url('../images/aboutUs/course-bg.png');
+    background-size: 100% 100%;
+    margin-right: 0 !important;
+}
+
+.about .slider-item:nth-child(even){
+    bottom: -150px;
+}
+.about .slider-item:nth-child(even):before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #E0E0E0;
+    position: relative;
+    top: -15px;
+}
+.about .slider-item:nth-child(odd){
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.course-time {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 50px;
+}
+.course-content{
+    font-size: 14px;
+    line-height: 60px;
+}
+.bx-viewport{
+    height: 275px !important;
+}
+
+
+
+/* 资质证书 */
+.certificate{
+    background-color: #F8F8F9;
+}
+.certificate .certificate-content h2{
+    font-size: 50px;
+    position: relative;
+    padding: 78px 0 42px;
+}
+
+.certificate .certificate-content a{
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 42px;
+    color: #1A1F29;
+}
+.certificate .certificate-content a:after{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height:14px;
+    background-image: url('../images/aboutUs/arrow-right.svg');
+    background-size: 100% 100%;
+}
+/* .certificate .license-wrap div{
+    display: inline-block;
+} */
+.certificate .license-box{
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.certificate .license-wrap_lf .license-box{
+    width: 526px;
+    height: 448px;
+    font-size: 18px;
+    float: left;
+}
+.certificate .license-wrap_lf img{
+    width: 470px;
+    height: 350px;
+}
+.certificate .license-wrap_lf p{
+    padding: 30px  0;
+}
+.license-wrap>div{
+    display: inline-block;
+}
+.certificate .license-wrap_rg{
+    width: 510px;
+    height: 448px;
+    position: relative;
+    margin-left: 20px;
+}
+.license-bx-sm .license-box:not(:nth-child(4n)){
+    margin: 20px 16px 0 0;
+}
+.license-bx-sm .license-box,.certificate .license-wrap_rg .license-box{
+    width: 250px;
+    height: 214px;
+}
+.certificate .license-wrap_rg .license-box{
+    position: absolute;
+}
+.certificate .license-wrap_rg .license-box:nth-of-type(1){
+    top: 0;
+    left: 0;
+}
+.certificate .license-wrap_rg .license-box:nth-of-type(2){
+    top: 0;
+    right: 0;
+}
+.certificate .license-wrap_rg .license-box:nth-of-type(3){
+    bottom: 0;
+    left: 0;
+}
+.certificate .license-wrap_rg .license-box:nth-of-type(4){
+    bottom: 0;
+    right: 0;
+}
+.certificate .license-wrap_rg img,.license-bx-sm .license-box img{
+    width: 204px;
+    height: 153px;
+}
+.certificate .license-wrap_rg p{
+    padding: 15px  0;
+}
+.certificate .license-box p{
+    border-top: 1px solid #EDEDED;
+}
+
+.copyright-wrap{
+    text-align: center;
+    font-size: 16px;
+}
+.copyright-box{
+    widows: 25px;
+    height: 410px;
+    background: #fff;
+    display: inline-block;
+}
+.copyright-box:not(:nth-child(4n)){
+    margin: 0 12px 20px 0;
+}
+.copyright-box img{
+    width: 220px;
+    height: 295px;
+    padding: 24px 16px 40px;
+}
+.copyright-box p{
+    padding: 15px 0 20px;
+    border-top: 1px solid #EDEDED;
+}
+.trademark-wrap{
+    padding-bottom: 80px;
+}
+
+/* 合作伙伴 */
+.partner-wrap{
+    background-color: #F8F8F9;
+    padding-top: 65px;
+}
+.partner-wrap .partner-box{
+    width: 337px;
+    height: 463px;
+    background: #fff;
+    display: inline-block;
+}
+.partner-wrap .partner-box:not(:nth-child(3n)){
+    margin: 0 20px 40px 0;
+}
+.partner-logo{
+    height: 230px;
+    width: 337px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.partner-wrap .partner-box p{
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+/* 司机招募 */
+/* 工作优势 */
+.work-advantage{
+    background-color: #F8F8F9;
+}
+.work-advantage h2{
+    font-size: 50px;
+    padding: 70px 0 40px;
+}
+.work-advantage h3{
+    font-size: 34px;
+    margin: 10px 0;
+}
+.work-advantage .advantage-box{
+    width: 429px;
+    height: 370px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.work-advantage .advantage-box:nth-child(even){
+    margin-right: 198px;
+    float: left;
+}
+.advantage-box p{
+    font-size: 18px;
+    line-height:36px;
+}
+.job-desc{
+    padding: 100px 0;
+}
+.job-desc .desc-text{
+    float: left;
+}
+.job-desc .desc-text p{
+    font-size: 18px;
+    line-height:36px;
+}
+.job-desc .desc-text h3{
+    font-size: 34px;
+    padding: 25px 0;
+    display: inline-block;
+}
+.job-desc img {
+    margin: 44px 0 0 54px
+}
+.recruit-process{
+    background-color: #F8F8F9;
+    padding: 50px 0 24px;
+}
+.recruit-process_text{
+    transform: translateY(25%);
+}
+.recruit-process_text h3{
+    font-size: 34px;
+    padding: 50px 0;
+}
+.recruit-process_text p{
+    font-size: 18px;
+    line-height: 36px;
+}
+.recruit-form_box {
+    width: 610px;
+    height: 545px;
+    background-color: #fff;
+    border-radius:6px;
+}
+.recruit-form_box .tip{
+    font-size: 14px;
+    text-align: center;
+}
+.recruit-form_box form{
+    padding: 0 43px;
+}
+.recruit-form_box label{
+    display: block;
+    font-size: 16px;
+    color: #2C2D2E;
+    margin: 21px 0 10px;
+}
+.recruit-form_box  input {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid rgba(233, 233, 233, 0.9);
+    box-sizing: border-box;
+}
+.recruit-form_box  select {
+    width: 32.7%;
+    height: 40px;
+    border: 1px solid rgba(233, 233, 233, 0.9);
+    font-size: 14px;
+}
+.recruit-form_box  button {
+    display: block;
+    width: 220px;
+    height: 43px;
+    margin: 30px auto 0;
+    background: rgba(66,135,255,1);
+    border-radius: 4px;
+    border: 0;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    line-height: 43px;
+    cursor: pointer;
+}
+.recruit-form_title{
+    width: 293px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    background-image: url('../images/aboutUs/join-title-bg.png');
+    font-size: 28px;
+    color: #fff;
+    position: relative;
+    left: 25%;
+    top: -18px;
+}
+.recruit-form_box .send-btn{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    color: rgba(66,135,255,1);
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.recruit-form_box .send-btn:before{
+    content: '';
+    position: absolute;
+    top: 11px;
+    right: 83px;
+    width: 1px;
+    height: 19px;
+    background: rgba(235,235,235,1);
+}
+.recruit-form_box  .input-item{
+    position: relative;
+}
+.recruit-form_box  .code-img{
+    position: absolute;
+    right: 10px;
+    top: 58px;
+    width: 78px;
+    height: 29px;
+}
+#mask{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.error-border{
+    border-color: #FE3B3B !important;
+}
+.error-text{
+    display: none;
+    color: #FE3B3B;
+    margin-top: 2px;
+    position: absolute;
+    bottom: -16px;
+}
