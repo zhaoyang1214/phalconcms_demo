@@ -77,7 +77,9 @@
 
         // 表单隐藏
         $('.banner .message-pop .close').click(function () {
-          $('.banner .message-pop').fadeOut(300)
+          $(".con").fadeIn(3000);
+          $(".common-submit-success").hide();
+          $('.banner .message-pop').fadeOut(300);
         });
       
         $(".change").click(function(){
@@ -157,7 +159,6 @@
        	 	
        	 	var myDate = new Date();
        	 	msg_time = myDate.getFullYear() + '-' + myDate.getMonth() + '-' + myDate.getDate() + ' ' + myDate.getHours() + ':' + myDate.getMinutes() + ':' + myDate.getSeconds();
-       	 	
        	 	var form = $(this);
        	 	if(form.hasClass('submit')) {
        	 		return false;
@@ -178,9 +179,11 @@
     	            	$(".con").hide();
     	            	$(".tip").text(data.message);
     	            	$(".common-submit-success").show();
+    	            	form[0].reset();
     	            } else {
     	            	$("#msg-error").text(data.message);
     	            }
+    	            
     	        }
     	    });
        	 	return false;

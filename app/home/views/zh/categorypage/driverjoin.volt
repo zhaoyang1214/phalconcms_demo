@@ -205,6 +205,7 @@
     	        	console.log(data);
     	            if(data.status==10000) {
     	            	$(".tip").text(data.message);
+    	            	form[0].reset();
     	            	submitSuccess();
     	            } else {
     	            	$("#msg-error").text(data.message);
@@ -223,7 +224,6 @@
     }
     function closeMask() {
         $('#mask').fadeOut(300);
-        location.reload();
     }
     </script>
 </body>

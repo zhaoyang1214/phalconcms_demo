@@ -165,7 +165,7 @@
   cursor: pointer;
   color:rgba(66,135,255,1);
 }
-.hot-lines .message-pop .code .code-img {
+.hot-lines .message-pop .code img {
   position: absolute;
   right: 10px;
   top: 58px;
@@ -202,10 +202,14 @@
   right: 98px;
 }
 .hot-lines .message-pop form button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
   display: block;
   width:220px;
   height:43px;
-  margin: 30px auto 0;
+  margin-left: -110px;
+  /*margin: 30px auto 0;*/
   background:rgba(66,135,255,1);
   border-radius:4px;
   border: 0;

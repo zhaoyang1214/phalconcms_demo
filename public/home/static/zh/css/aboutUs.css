@@ -139,11 +139,30 @@
     height: 115px;
     width: 273px;
     text-align: center;
-    background-image: url('../images/aboutUs/course-bg.png');
-    background-size: 100% 100%;
-    margin-right: 0 !important;
 }
 
+.about .slider-item .slider-content {
+    width: 273px;
+    background-image: url('../images/aboutUs/course-bg.png');
+    background-size: 100% 100%;
+}
+.about .slider-item:nth-child(even) .slider-content {
+    background-image: url('../images/aboutUs/course-reverse-bg.png');
+}
+.about .slider-item .slider-content:after {
+    content: "";
+    display: block;
+    width:13px;
+    height:13px;
+    background:rgba(206,206,206,1);
+    border-radius:50%;
+    position: absolute;
+    top: 95%;
+    right: 34%;
+}
+.about .slider-item:nth-child(even) .slider-content:after {
+    top: -19%;
+}
 .about .slider-item:nth-child(even){
     bottom: -150px;
 }
@@ -488,4 +507,76 @@
     margin-top: 2px;
     position: absolute;
     bottom: -16px;
+}
+
+/* 联系我们 */
+.map-wrap{
+    background-color: #F8F8F9;
+    padding: 102px 0 166px;
+}
+#allmap {
+    width: 1060px;
+    height: 632px;
+    overflow: hidden;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+.main-wrap{
+    position: relative;
+}
+.company-info{
+    width:388px;
+    height:527px;
+    background-color: #4287FF;
+    color: #fff;
+    padding: 0 31px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 12px;
+    top: -12px;
+    z-index: 1;
+}
+.company-info:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 14px 14px;
+    border-color: transparent transparent #2462CE transparent;
+    position: absolute;
+    left: -14px;
+}
+.company-info:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 0 0 14px;
+    border-color: transparent transparent transparent #2462CE;
+    position: absolute;
+    right: -14px;
+    top: 0
+}
+.company-info h1{
+    padding-top: 63px;
+    font-size: 26px;
+}
+.company-info address{
+    font-size: 18px;
+    margin: 30px 0;
+    line-height:30px;
+    font-weight: 300;
+}
+.company-info .company-sub_title{
+    font-size: 20px;
+    border-top: 1px solid rgba(203,222,255,0.66);
+    padding: 28px 0 15px;
+    font-weight: 300;
+}
+.company-info .company-sub_value{
+    font-size: 14px;
+    padding-bottom: 29px;
+    font-weight: 300;
 }
