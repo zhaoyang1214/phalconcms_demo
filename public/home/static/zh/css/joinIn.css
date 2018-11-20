@@ -27,8 +27,19 @@
     margin: 10px 0;
 }
 
-.join-in .introduce .sub-introduce:not(::last-of-type) {
+.join-in .transport_left{
     margin-right: 18px;
+}
+
+.join-in .transport_left .sub-introduce:not(:last-of-type) {
+    margin-bottom: 58px;
+}
+
+.join-in .transport_right{
+    margin-left: 18px;
+}
+
+.join-in .transport_right .sub-introduce:not(:last-of-type) {
     margin-bottom: 58px;
 }
 
@@ -40,6 +51,10 @@
     box-sizing: border-box;
 }
 
+.join-in .sub-introduce p:last-of-type {
+    line-height: 30px;
+}
+
 .join-in .transport_left .sub-introduce {
     background-image: url('../images/joinIn/transport-sub_left.png');
     padding: 10px 30px 10px 20px;
@@ -47,7 +62,7 @@
 
 .join-in .transport_right .sub-introduce {
     background-image: url('../images/joinIn/transport-sub_right.png');
-    padding: 10px 20px 10px 30px;
+    padding: 10px 20px 10px 48px;
 }
 
 .join-in .introduce-title {
@@ -72,7 +87,6 @@
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    /* margin: -15% 0 0 -25%; */
 }
 
 .join-in .market {
@@ -148,18 +162,7 @@
     padding: 32px 0;
     box-sizing: border-box;
     position: relative;
-    /* box-shadow: 10px 10px 0 rgba(255, 255, 255, 1); */
-}
-
-.join-in .platform-content div:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 90%;
-    background-color: rgba(255, 255, 255, .42);
-    height: 8px;
-    bottom: -8px;
-    right: 5%;
+    box-shadow: 0 12px 0px -5px rgba(255, 255, 255, .42);
 }
 
 .join-in .platform-content div:not(:last-of-type) {
@@ -235,9 +238,13 @@
     font-weight: 500;
 }
 
-.join-in .slider-card h3 span {
-    padding-bottom: 15px;
-    border-bottom: 4px solid #000;
+.join-in .slider-card h3:after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 18px;
+    background-color: #000;
+    margin-top: 15px;
 }
 
 .join-in .slider-card p {
@@ -269,8 +276,6 @@
     display: none !important;
 }
 
-
-/* 
-.join-in .advantage-item:not(:last-of-type) {
-    margin: 0 35px;
-} */
+.bx-wrapper .bx-viewport{
+    background: #F8F8F9 !important;
+}

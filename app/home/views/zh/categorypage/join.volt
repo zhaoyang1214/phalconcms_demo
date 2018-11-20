@@ -168,16 +168,15 @@
                 	<?php for($i=0; $i<$joinUsCount;) : ?>
                     <div class="slider-content">
                     	<?php for($j=0; $j<8 && $i<$joinUsCount; $i++,$j++) : ?>
-                    	<div class="slider-card">
-                            <h3><span>{{ mb_substr(joinUs[i]['title'],0,1) }}</span>{{ mb_substr(joinUs[i]['title'],1) }}</h3>
+                        <div class="slider-card">
+                            <h3>{{ joinUs[i]['title'] }}</h3>
                             <p>联系人:{{ joinUs[i]['name'] }}</p>
                             <p>联系电话：{{ joinUs[i]['phone'] }}</p>
                         </div>
-                    	<?php endfor; ?>
+                        <?php endfor; ?>
                     </div>
                     <?php endfor; ?>
                 </div>
-                
             </div>
 
         </div>
@@ -185,7 +184,6 @@
 
         <!--公共尾部 S-->
         {% include "public/footer.volt" %}
-        <!--公共尾部 E-->
     </div>
 
     <script src="{{ static_url('js/third-part/jquery-1.12.4.min.js') }}"></script>
@@ -195,6 +193,11 @@
             var bxSlider = $('.bxslider').bxSlider({
                 infiniteLoop: false,
                 hideControlOnEnd: true,
+                auto: true,
+                pause: 4000,
+                onSlideAfter: function() {
+                    bxSlider.startAuto()
+                }
             });
         });
     </script>
