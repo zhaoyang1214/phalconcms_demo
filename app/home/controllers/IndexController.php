@@ -14,7 +14,7 @@ class IndexController extends CommonController {
             }
         }
         $renderView = empty($system->index_tpl) ? 'index/index' : $this->config->system->index_tpl;
-        $this->view->common = $this->media();
+        $this->view->common = $this->media($this->config->system->seoname);
         $this->view->pick($renderView);
     }
 }

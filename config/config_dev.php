@@ -355,7 +355,7 @@ return [
         ]
     ],
     'system' => [
-        'version' => '1.0.0',
+        'version' => '1.2.0',
         // 网站名称
         'sitename' => '',
         // 网站副标题

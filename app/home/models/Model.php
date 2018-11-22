@@ -3,7 +3,6 @@ namespace App\Home\Models;
 
 use Phalcon\Mvc\Model as MvcModel;
 use Common\Common;
-use Phalcon\Text;
 
 class Model extends MvcModel {
     

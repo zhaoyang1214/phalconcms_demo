@@ -31,12 +31,21 @@
             <p class="course-desc">见证我们从初生到懵懂，从懵懂到成熟，从一叶扁舟发展为远行巨航。</p>
             <div class="course-slider">
             	{% for info in model.getModel('FormData').getAllFormat('history') %}
+                {% if loop.index % 2 %}
                 <div class="slider-item">
                     <div class="slider-content">
                         <p class="course-time">{{ info['time'] }}</p>
                         <p class="course-content">{{ info['event'] }}</p>
                     </div>
                 </div>
+                {% else %}
+                <div class="slider-item">
+                    <div class="slider-content">
+                        <p class="course-content">{{ info['event'] }}</p>
+                        <p class="course-time">{{ info['time'] }}</p>
+                    </div>
+                </div>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>

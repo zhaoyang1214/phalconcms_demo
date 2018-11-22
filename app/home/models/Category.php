@@ -2,7 +2,6 @@
 namespace App\Home\Models;
 
 use Models\Category as ModelsCategory;
-use Phalcon\Mvc\Model\Exception;
 
 class Category extends ModelsCategory {
     
