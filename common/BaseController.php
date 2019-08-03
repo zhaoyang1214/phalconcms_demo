@@ -23,7 +23,7 @@ class BaseController extends Controller {
      * @date 2018年5月8日 下午10:38:50 
      */
     final protected function get(string $name = null, $filter = null, $defaultValue = null, bool $noRecursive = false) {
-        $data = array_merge($this->request->getQuery(), $this->dispatcher->getParams());
+        $data = array_merge($this->router->getParams(), $this->request->getQuery(), $this->dispatcher->getParams());
         unset($data['_url']);
         return $this->sanitize($data, $name, $filter, $defaultValue, $noRecursive);
     }
